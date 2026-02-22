@@ -10,8 +10,5 @@
     "observability": {
         "enabled": true
     },
-    "upload_source_maps": true,
-    "vars": {
-        "DOMAIN": "kaiming.io"
-    }
+    "upload_source_maps": true
 }
