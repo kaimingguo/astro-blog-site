@@ -23,7 +23,7 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v5
         with:
-          build-cmd: astro build --config astro.config.github.mjs
+          build-cmd: npx astro build --config astro.config.github.mjs
 
   deploy:
     needs: build
